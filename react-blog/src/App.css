@@ -1,0 +1,166 @@
+.App {
+	text-align: center;
+}
+html {
+	overflow-x: hidden;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.my_container {
+	margin-left: 0.3rem;
+	margin-right: 0.3rem;
+}
+h2 {
+	text-align: center;
+}
+.nav-item > .nav-link {
+	color: black;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.nav-link:hover {
+	color: black;
+}
+.bx {
+	font-size: 1.3rem;
+	align-self: flex-end;
+	cursor: pointer;
+}
+a.nav-item {
+	cursor: pointer;
+}
+.featured {
+	overflow: hidden;
+	position: relative;
+}
+.featured-content {
+	position: relative;
+	z-index: 2;
+}
+.demo-bg {
+	opacity: 0.3;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+.icon-link {
+	text-decoration: none;
+	gap: 0px;
+}
+.icon-link:hover {
+	cursor: pointer;
+}
+.icon-link > i {
+	font-size: inherit;
+}
+.featured-box {
+	min-height: 250px;
+	transition: transform 0.3s ease;
+}
+.featured-box:hover {
+	transform: translateY(-7px);
+}
+header {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.inner-header {
+	justify-content: space-between;
+}
+.btn-lg {
+	background-color: rgb(16, 16, 16);
+	color: white;
+}
+.btn-lg {
+	border: 2px solid rgb(16, 16, 16) !important;
+}
+.form-control:focus {
+	border-color: rgb(16, 16, 16);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+		0 0 8px rgba(16, 16, 16, 0.6);
+}
+.nav-pills > .nav-item {
+	display: flex;
+	align-items: center;
+}
+.name {
+	font-size: 4.5rem;
+	font-family: "Handjet", sans-serif;
+	/* font-weight: 800; */
+	font-style: normal;
+	font-variation-settings: "ELGR" 1, "ELSH" 2;
+}
+.display-5 {
+	font-size: 3.5rem;
+}
+/* .footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+} */
+
+/* .main-content {
+	position: relative;
+	z-index: 2;
+}*/
+.main-featured {
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+	width: 80%;
+}
+.demo-bg-main {
+	opacity: 0.3;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 150px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Playfair Display", Georgia, "Times New Roman",
+		serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+	margin-bottom: 4rem;
+}
+.blog-post-meta {
+	margin-bottom: 1.25rem;
+	color: #727272;
+}
+.pagination {
+	color: black;
+}
+.pagination-disabled {
+	/* cursor: not-allowed; */
+	pointer-events: none;
+	color: gray;
+}
+.pagination-disabled:hover {
+	cursor: not-allowed;
+}
+.cover {
+	list-style-type: none;
+}
+.cover > li {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	text-align: center;
+}
