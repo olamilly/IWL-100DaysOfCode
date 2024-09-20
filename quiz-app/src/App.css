@@ -1,0 +1,264 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, 1fr);
+	height: 100dvh;
+	min-height: 0; /* NEW */
+	min-width: 0;
+}
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100dvh;
+}
+.homeForm,
+.buttonContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.logo {
+	font-size: 2rem;
+	text-align: center;
+}
+.logo > h1 {
+	font-weight: 500;
+}
+.gameCard > h1 {
+	font-size: 2rem;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+	text-align: center;
+}
+.logo > h1 {
+	margin-top: 0.4rem;
+}
+input:focus,
+input:active,
+input {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	/* background: transparent; */
+	width: 80%;
+	max-width: 500px;
+	font-weight: 500;
+	background-color: white;
+	padding-left: 0.5rem;
+	box-shadow: 2px 2px lightgray;
+	border: 1px solid lightgrey;
+}
+label {
+	width: 80%;
+	max-width: 500px;
+}
+input,
+button {
+	margin-top: 0.5rem;
+	outline: none;
+	border-radius: 0.8rem;
+	border: none;
+	cursor: pointer;
+}
+button {
+	background-color: black;
+	color: white;
+	padding: 1rem;
+	width: 60%;
+	max-width: 300px;
+}
+.categories {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.categories > p {
+	border-radius: 0.7rem;
+	/* border: 1px solid black; */
+	cursor: pointer;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	text-align: center;
+	background-color: white;
+	box-shadow: 2px 2px lightgray;
+	border: 1px solid lightgrey;
+}
+a {
+	text-decoration: none;
+}
+.navbar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 0;
+	height: 4rem;
+	background-color: white;
+	border-bottom: 1px solid rgb(194, 192, 192);
+	z-index: 2;
+	/* box-shadow: 0px 1px rgb(194, 192, 192); */
+}
+.bx {
+	font-size: 2rem;
+	cursor: pointer;
+	font-size: 2rem;
+	cursor: pointer;
+	color: black;
+	margin-top: 0.7rem;
+}
+
+.navbar > span {
+	padding-left: 1rem;
+}
+.navbar > p {
+	padding-right: 1rem;
+	font-weight: 500;
+	margin: 0px;
+}
+button:disabled {
+	cursor: not-allowed;
+	background: lightgray;
+	border: none;
+}
+.header {
+	text-align: center;
+}
+.selected {
+	background-color: black !important;
+	color: white;
+}
+h5 {
+	margin-top: 0px;
+}
+.gameCard {
+	width: 80%;
+	max-width: 700px;
+	margin: 1rem;
+	padding: 0.7rem;
+	background-color: white;
+	box-shadow: 2px 2px lightgray;
+	border: 1px solid lightgrey;
+	border-radius: 0.8rem;
+}
+.gameCardContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cardHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.option {
+	border: 1px solid black;
+	border-radius: 0.8rem;
+	padding: 1rem;
+	box-shadow: 2px 2px lightgray;
+	cursor: pointer;
+}
+.option:hover {
+	background-color: gainsboro;
+}
+.gameControl {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	max-width: 700px;
+	padding: 0.7rem;
+}
+.Control > button {
+	width: 30%;
+	max-width: 150px;
+	margin-left: auto;
+}
+
+.wrong {
+	background-color: rgb(245, 170, 170);
+	pointer-events: none;
+}
+.wrong:hover {
+	background-color: rgb(245, 170, 170);
+}
+.right {
+	font-weight: 700;
+	background-color: rgb(199, 245, 170);
+	pointer-events: none;
+}
+.right:hover {
+	background-color: rgb(199, 245, 170);
+}
+#question {
+	font-weight: 500;
+	font-size: 1.3rem;
+	text-align: center;
+}
+.resultCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.scoreCard {
+	font-size: 3rem;
+	/* color: white; */
+}
+.scoreMessage > h4 {
+	font-size: 2rem;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+}
+.scoreMessage > p {
+	font-size: 1.3rem;
+}
+.resultbuttonContainer {
+	justify-content: flex-start;
+	/* margin-top: -2rem; */
+}
+.score {
+	font-size: 4rem;
+	font-weight: 500;
+	margin-top: 1rem;
+}
+@media screen and (max-height: 730px) {
+	.resultPadding {
+		display: none;
+	}
+}
+#loader {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.error {
+	text-align: center;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	color: red;
+	font-weight: 500;
+}
+.answerState {
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: 500;
+}
+.d-none {
+	display: none;
+}
+#quit {
+	text-decoration: underline;
+	color: red;
+	font-weight: 700;
+	cursor: pointer;
+}
+.userSelected {
+	border: 3px solid black;
+	font-weight: 700;
+	text-decoration: underline;
+}
