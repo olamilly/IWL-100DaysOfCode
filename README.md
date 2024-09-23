@@ -12,3 +12,6 @@
  ## 4. Quiz app: Answer questions from different categories in various difficulty levels (Questions from Open Trivia DB API)
    * Old project built with vue: http://olamillygamesapp.s3-website-us-east-1.amazonaws.com/trivia and it's source code is on https://github.com/olamilly/olamillygamesapp/blob/main/src/views/TriviaView.vue
    * I built this new one with React and Redux: http://olamilly-quiz-app.s3-website-us-east-1.amazonaws.com/ and the source code is on this repository
+ ## 5. Weather app: Shows weather information for desired city. (Data from OpenWeatherMap API). Old project I built only showed current weather condition but for this challenge, I added the weather forecast data for the next 5 days.
+   * https://olamilly.github.io/weather.html
+   * Source code at https://github.com/olamilly/olamilly.github.io/blob/main/weather.html
