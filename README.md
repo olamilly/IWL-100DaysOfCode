@@ -15,3 +15,6 @@
  ## 5. Weather app: Shows weather information for desired city. (Data from OpenWeatherMap API). Old project I built only showed current weather condition but for this challenge, I added the weather forecast data for the next 5 days.
    * https://olamilly.github.io/weather.html
    * Source code at https://github.com/olamilly/olamilly.github.io/blob/main/weather.html
+## 6. To-Do List App using HTML, CSS, and JavaScript. The app stores tasks in the browser's local storage, so users can keep track of their tasks even after refreshing the page. The app also helps rank user's tasks based on priority/urgency.
+   * https://olamilly.github.io/todolist.html
+   * Source code at https://github.com/olamilly/olamilly.github.io/blob/main/todolist.html
